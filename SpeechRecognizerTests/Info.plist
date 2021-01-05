@@ -18,5 +18,9 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We really need to use the microphone for this demonstration. </string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Demonstrate the speech to text capability</string>
 </dict>
 </plist>

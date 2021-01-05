@@ -13,6 +13,7 @@
 		F25DA628259A130900F8AEF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25DA627259A130900F8AEF2 /* Preview Assets.xcassets */; };
 		F25DA633259A130900F8AEF2 /* SpeechRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DA632259A130900F8AEF2 /* SpeechRecognizerTests.swift */; };
 		F25DA63E259A130900F8AEF2 /* SpeechRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DA63D259A130900F8AEF2 /* SpeechRecognizerUITests.swift */; };
+		F25DA64F259A133500F8AEF2 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DA64E259A133500F8AEF2 /* Speech.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F25DA639259A130900F8AEF2 /* SpeechRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25DA63D259A130900F8AEF2 /* SpeechRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerUITests.swift; sourceTree = "<group>"; };
 		F25DA63F259A130900F8AEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25DA64E259A133500F8AEF2 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F25DA624259A130900F8AEF2 /* Assets.xcassets */,
 				F25DA629259A130900F8AEF2 /* Info.plist */,
 				F25DA626259A130900F8AEF2 /* Preview Content */,
+				F25DA64E259A133500F8AEF2 /* Speech.swift */,
 			);
 			path = SpeechRecognizer;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25DA64F259A133500F8AEF2 /* Speech.swift in Sources */,
 				F25DA623259A130800F8AEF2 /* ContentView.swift in Sources */,
 				F25DA621259A130800F8AEF2 /* SpeechRecognizerApp.swift in Sources */,
 			);
